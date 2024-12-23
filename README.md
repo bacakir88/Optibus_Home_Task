@@ -13,7 +13,7 @@ A React-based application for managing driver duties with schedule conflict prev
 
 ## Prerequisites
 
-- Node.js
+- Node.js (v18.20.4 or upper)
 - npm or yarn
 - TypeScript
 
