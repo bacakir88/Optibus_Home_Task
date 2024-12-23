@@ -22,7 +22,6 @@ A React-based application for managing driver duties with schedule conflict prev
 1. Clone the repository:
 ```bash
 git clone https://github.com/bacakir88/Optibus_Home_Task.git
-cd OPTIBUS_HOME_TASK
 ```
 
 2. Install dependencies:
