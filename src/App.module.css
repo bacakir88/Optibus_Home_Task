@@ -1,0 +1,20 @@
+.container {
+    min-height: 100vh;
+    background-color: white;
+  }
+  
+  .header {
+    background-color: #2563eb;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .headerTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .main {
+    display: flex;
+  }
+  

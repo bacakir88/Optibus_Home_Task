@@ -1,0 +1,50 @@
+{
+  "name": "driver-duties",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "lucide-react": "^0.469.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "css-loader": "^7.1.2",
+    "jsdom": "^21.1.1",
+    "style-loader": "^4.0.0",
+    "typescript": "^4.9.3",
+    "typescript-plugin-css-modules": "^5.0.1",
+    "vite": "^4.2.0",
+    "vitest": "^0.29.8"
+  },
+  "vitest": {
+    "globals": true,
+    "environment": "jsdom",
+    "setupFiles": [
+      "./src/test/setup.ts"
+    ],
+    "coverage": {
+      "reporter": [
+        "text",
+        "json",
+        "html"
+      ],
+      "exclude": [
+        "node_modules/",
+        "src/test/setup.ts"
+      ]
+    }
+  }
+}

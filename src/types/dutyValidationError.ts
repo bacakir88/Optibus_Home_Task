@@ -1,0 +1,1 @@
+export type DutyValidationError = 'OVERLAP' | 'INSUFFICIENT_REST' | null;

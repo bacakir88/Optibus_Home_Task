@@ -1,0 +1,32 @@
+.card {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    background: #2be6a7bd;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.8);
+  }
+  
+  .title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.75rem;
+  }
+  
+  .depot {
+    color: #4b5563;
+  }
+  
+  .info {
+    font-size: 0.875rem;
+  }
+
+  .lucide {
+    height: 15px;
+  }
